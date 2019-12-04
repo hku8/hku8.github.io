@@ -1,0 +1,163 @@
+html, body {
+    background-color:white;
+    margin:0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-name {
+    display: flex;
+    flex-direction: row;
+    background-color:#FFDBDC;
+    position:fixed;
+    margin-top:400px;
+    /* padding-right:70px; */
+    z-index:-10;
+    width:100%;
+    padding-top:70px;
+}
+
+.pic-name-container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity:.7;
+}
+
+#prof-pic {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.text {
+    display:flex;
+    flex-direction: column;
+    margin-left:-50px;
+}
+
+#helloim {
+    margin-top:70px;
+    margin-bottom:-100px;
+}
+
+#written-name {
+    margin-left:80px;
+}
+
+header {
+    position:fixed;
+    z-index: 100;
+    width:100%;
+}
+
+#about-me {
+    width:100%;
+    height:1000px;
+    background-color:white;
+    position:relative;
+    margin-top:795px;
+}
+
+.nav-bar {
+    padding-left:100px;
+    background-color:white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right:100px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 55px;
+}
+
+nav li a:hover {
+    background-color:rgb(252, 218, 223);
+    transition: .5s;
+}
+
+nav a {
+    font-family: 'Karla', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#brown-background {
+    margin-top:-100px;
+    padding-top:-100px;
+    position:absolute;
+    z-index: 20;
+}
+
+#insta-posts{
+    padding-top:40px;
+    z-index: 30;
+    /* position:absolute; */
+    text-align:center;
+    background-color: white;
+    width:100%;
+    height:600px;
+    font-family: 'Karla', sans-serif;
+}
+
+#insta-photos img {
+    margin:10px;
+}
+
+#insta-photos img:hover {
+    opacity:.5;
+    transition: .5s;
+}
+
+#insta-photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#insta-photos a{
+    text-decoration: none;
+    color:grey;
+}
+
+#sticker-description {
+    padding-top:40px;
+    z-index: 40;
+    text-align:center;
+    background-color: #F3E9E7;
+    width:100%;
+    height:200px;
+    font-family: 'Karla', sans-serif;
+}
+
+#insta-stickers {
+    display:flex;
+    flex-direction: column;
+}
+
+#sticker-photos {
+    height:400px;
+    background-color: white;
+    z-index: 50;
+}
