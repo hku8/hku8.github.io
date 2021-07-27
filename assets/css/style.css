@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+    padding:0;
+    margin:0;
+  }
+
+#asdf {
+    background:#FDD3D3;
+}
+
+.page1 {
+    /* The image used */
+    background-image: url("colorthree.svg");
+  
+    /* Full height */
+    height: 95%;
+    width:100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .page2 {
+    /* The image used */
+    background-image: url("asdf.svg");
+  
+    /* Full height */
+    height: 100%;
+    width:100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+  }
+  
+  ul{
+    font-family: 'Yantramanav';
+    font-weight:medium;
+    font-size:20px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    display:block;
+  }
+
+  nav ul li a:after {
+    transition: all .5s;
+  }
+
+li a{
+    text-decoration:none;
+    text-align:center;
+    color:black;
+    display:block;
+    margin-right:50px;
+    margin-top:15px;
+    float:right;
+    position:relative;
+    z-index: 1;
+    padding:8px;
+  }
+
+  li a:after{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #FDD3D3;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  li a:hover:after{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+
+
+  .doodlecraving{
+    float:left;
+    padding:19px 30px 30px 40px;
+  }
+
+  .doodlecraving a{
+    text-decoration:none;
+    font-family:'yantramanav';
+    color:black;
+    font-weight:bold;
+    font-size:30px; 
+    position:relative;
+  }
+
+  #sticker_button{
+    border-style: solid;
+    border-width:2px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:40px;
+    margin-top:18px;
+  }
