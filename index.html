@@ -1,30 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="shortcut icon" href="assets/images/initials.jpg" />
-        <title>Hannah</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <script src="scrolling-animation.js"></script>
+  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
 
-    </head>
-
-    <body>
-        <header>
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <!-- <div class="page_container"> -->
+          <div class="left_half">
             <nav>
-                <div class="doodlecraving">
-                  <a href="index.html">HK</a>
-                </div>
-                <ul>
-                  <li><a href="https://www.instagram.com/doodlecraving/" id="sticker_button">INSTAGRAM</a></li>
-                  <li><a href="mailto:hannahku@berkeley.edu">CONTACT</a></li>
-                  <li><a href="portfolio.html">PORTFOLIO</a></li>
-                </ul>
+              <div class="doodlecraving">
+                <a href="https://www.instagram.com/doodlecraving/">DOODLECRAVING</a>
+              </div>
+              <ul>
+                <li><a href="" id="sticker_button">STICKERS</a></li>
+                <li><a href="">PROJECTS</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+              </ul>
             </nav>
-        </header>
-        <div class="page1">
-        </div>
-    </body>
+
+            <div class="body1">
+            	<div class="title">
+            	  <div class="hello_title">
+            	    <img src="images/Hello Title.svg">
+            	  </div>
+              
+            	  <div class="subtitle">
+            	    <p>A software engineer passionate about <br> solving problems and doodling</p>
+            	  </div>
+            	</div>
+            
+            	<div class="decoration">
+            	  <img class="pg1deco" src="images/Page1 Decorations.svg">
+            	</div>
+            </div>
+
+          </div>
+          <div class="right_half">
+            <div class="buttons">
+              <a href="https://www.facebook.com/hannah.ku.940"><img src="images/FB Button.svg"></a>
+              <a href=""><img src="images/Twitter Button.svg"></a>
+              <a href="https://www.instagram.com/doodlecraving/"><img src="images/Instagram Button.svg"></a>
+              <a href=""><img src="images/Mail Button.svg"></a>
+            </div>
+          </div>
+        <!-- </div> -->
+      </section>
+	    
+	    <section class="page2" id="p2">
+        <!-- <a href=""><img src="images/molangtransparent.png" id="sticker1"></a>
+        <a href=""><img src="images/pusheen.png"id="sticker2"></a>
+        <a href=""><img src="images/sumikkotransparent.png"id="sticker3"></a> -->
+        <a href=""><img src="images/Shop More Button.svg"></a>
+      </section>
+	    
+	    <section class="page3">
+        <a href=""><img src="images/img1.svg" id="post1"></a>
+        <a href=""><img src="images/img2.svg"id="post3"></a>
+        <a href=""><img src="images/img3.svg"id="post2"></a>
+      </section>
+
+      <section class="page4">
+	      <div class="page_container">
+  	    </div>
+      </section>
+    </div>
+  </div>
+</body>
 </html>
